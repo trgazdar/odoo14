@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2016-Present Webkul Software Pvt. Ltd. (<https://webkul.com/>) -->
+<!-- See LICENSE file for full copyright and licensing details. -->
+<!-- License URL : https://store.webkul.com/license.html/ -->
+<odoo>
+    <data>
+        <!-- SLIDE.TAG -->
+        <record id="mp_view_slide_tag_form" model="ir.ui.view">
+            <field name="name">mp.slide.tag.form</field>
+            <field name="model">slide.tag</field>
+            <field name="arch" type="xml">
+                <form string="Tag">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="mp_view_slide_tag_tree" model="ir.ui.view">
+            <field name="name">mp.slide.tag.tree</field>
+            <field name="model">slide.tag</field>
+            <field name="arch" type="xml">
+                <tree string="Tags" editable="bottom">
+                    <field name="name"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="mp_action_slide_tag" model="ir.actions.act_window">
+            <field name="name">Content Tags</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">slide.tag</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+    </data>
+</odoo>

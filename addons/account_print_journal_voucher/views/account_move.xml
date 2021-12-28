@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="account_print_journal_voucher_view" model="ir.ui.view">
+            <field name="name">account print journal voucher view</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_tree"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//field[@name='ref']" position="after">
+                        <field name="print_already"/>
+                        <field name="print_datetime"/>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+        <record id="account_print_journal_voucher_form" model="ir.ui.view">
+            <field name="name">account print journal voucher form</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//group[@id='header_right_group']" position="after">
+                        <group>
+                            <field name="print_already"/>
+                            <field name="print_datetime"/>
+                            <field name="write_date"/>
+                        </group>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+        <record id="account_print_journal_voucher_select" model="ir.ui.view">
+            <field name="name">account print journal voucher select</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_account_move_filter"/>
+            <field name="arch" type="xml">
+                <data>
+                    <xpath expr="//filter[@name='misc_filter']" position="after">
+                        <separator/>
+                        <filter string="已列印" name="printed" domain="[('print_already','=','true')]" help="傳票已列印"/>
+                        <filter string="待列印" name="waittoprint" domain="[('print_already','!=','true')]" help="傳票尚未列印/有變更"/>
+                        <separator/>
+                        <filter string="已歸檔" name="inactive" domain="[('active', '=', False)]"/>
+                    </xpath>
+                    <xpath expr="//group" position="after">
+                        <filter string="前次列印時間" name="lastprint" domain="[]" context="{'group_by':'print_datetime'}" help="依前次列印時間分組"/>
+                        <filter string="列印狀況" name="printstate" domain="[]" context="{'group_by':'print_already'}"/>
+                        <filter string="最後變更時間" name="lastchange" domain="[]" context="{'group_by':'write_date'}"/>
+                        <filter string="歸檔狀況" name="active" domain="[]" context="{'group_by':'active'}"/>
+                    </xpath>
+                </data>
+            </field>
+        </record>
+        <record id="override_view_move_form" model="ir.ui.view">
+            <field name="name">override view move form</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='date']" position="attributes">
+                    <attribute name="attrs">{'readonly': [('state', '!=', 'draft')]}</attribute>
+                </xpath>
+                <xpath expr="//field[@name='name']" position="attributes">
+                    <attribute name="force_save">True</attribute>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

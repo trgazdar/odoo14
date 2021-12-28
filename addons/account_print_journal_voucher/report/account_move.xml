@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <report
+            id="report_account_move_menu"
+            string="Journal Voucher"
+            model="account.move"
+            report_type="qweb-html"
+            file="account.account_move"
+            name="account_print_journal_voucher.account_move_report"
+        />
+
+        <template id="account_move_report">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="web.internal_layout">
+                        <t t-call="account_print_journal_voucher.report_account_move_document" t-lang="doc.create_uid.lang"/>
+                    </t>
+                </t>
+            </t>
+        </template>
+
+        <template id="report_account_move_document">
+            <div class="page">
+                <h4>
+                    記帳憑證/傳票
+                </h4>
+                        <div class="row mb8">
+                            <span class="col-4">
+                                <strong>公司：</strong>
+                                <p t-field="doc.company_id"/>
+                            </span>
+                            <span class="col-4">
+                                <strong>日期：</strong>
+                                <p t-field="doc.date"/>
+                            </span>
+                            <span class="col-4">
+                                <strong>日記帳：</strong>
+                                <p t-field="doc.journal_id"/>
+                            </span>
+                        </div>
+
+                <table class="table table-sm">
+                  <thead>
+                    <tr>
+                        <th>會計項目/傳票編號：<span t-field="doc.name"/></th>
+                        <th>業務夥伴</th>
+                        <th>備註</th>
+                        <th class="text-right">借方</th>
+                        <th class="text-right">貸方</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr t-foreach="doc.line_ids" t-as="line">
+                      
+                        <td>
+                            <span t-field="line.account_id"/>
+                        </td>
+                        <td>
+                            <span t-field="line.partner_id"/>
+                        </td>
+                        <td>
+                            <span t-field="line.name"/>
+                        </td>
+                        <td class="text-right">
+                            <span t-field="line.debit"/>
+                        </td>
+                        <td class="text-right">
+                            <span t-field="line.credit"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="text-right" colspan="3">Total</td>
+                        <td class="text-right">
+                            <span t-field="doc.amount_total"/>
+                        </td>
+                        <td class="text-right">
+                            <span t-field="doc.amount_total"/>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>
+                    <span t-field="doc.narration"/>
+                </p>
+                        <div class="row  mt32">
+                            <span class="col-4">
+                                <strong>核准：_________________</strong>
+
+                            </span>
+                            <span class="col-4">
+                                <strong>會計：_________________</strong>
+
+                            </span>
+                            <span class="col-4">
+                                <strong>製單：</strong>
+                                <p t-field="doc.create_uid"/>
+                            </span>
+                        </div>
+            </div>
+            
+        </template>
+
+        <record id="journal_voucher_paperformat" model="report.paperformat">
+            <field name="name">Jounal Voucher Paper Format</field>
+            <field name="default" eval="False" />
+            <field name="format">custom</field>
+            <field name="page_height">148</field>
+            <field name="page_width">210</field>
+            <field name="orientation">Portrait</field>
+            <field name="margin_top">20</field>
+            <field name="margin_bottom">10</field>
+            <field name="margin_left">7</field>
+            <field name="margin_right">7</field>
+            <field name="header_line" eval="False" />
+            <field name="header_spacing">15</field>
+            <field name="dpi">90</field>
+        </record>
+
+        <record id="report_account_move_menu" model="ir.actions.report">
+            <field name="paperformat_id" ref="account_print_journal_voucher.journal_voucher_paperformat"/>
+        </record>
+    </data>
+</odoo>

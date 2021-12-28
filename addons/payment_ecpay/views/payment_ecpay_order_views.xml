@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_tree_order_ecpay" model="ir.ui.view">
+      <field name="name">綠界訂單列表</field>
+      <field name="model">order.ecpay.model</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="MerchantTradeDate"/>
+          <field name="MerchantTradeNo"/>
+          <field name="TradeNo"/>
+          <field name="TradeAmt"/>
+          <field name="PaymentType"/>
+          <field name="RtnMsg"/>
+        </tree>
+      </field>
+    </record>
+
+    <act_window id="action_menuitem_order_ecpay"
+        name="綠界金流訂單"
+        res_model="order.ecpay.model"
+        view_mode="tree,form" />
+        <!-- target="new" /> -->
+
+    <menuitem id="menuitem_order_ecpay" name="綠界金流訂單"
+        action="action_menuitem_order_ecpay"
+        parent="account.root_payment_menu"
+        groups="payment_ecpay.group_user"
+        sequence="5"/>
+
+</odoo>

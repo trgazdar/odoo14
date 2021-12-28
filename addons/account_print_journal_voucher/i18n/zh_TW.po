@@ -1,0 +1,178 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_print_journal_voucher
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-02 07:33+0000\n"
+"PO-Revision-Date: 2019-12-02 15:40+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_TW\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid ": Journal Voucher"
+msgstr "會計憑證/傳票"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "<strong>Journal Items</strong>"
+msgstr "<strong>憑證細項</strong>"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Account"
+msgstr "會計項目"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Created By"
+msgstr "製單"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Credit"
+msgstr "貸方"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Date"
+msgstr "日期:"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Debit"
+msgstr "借方"
+
+#. module: account_print_journal_voucher
+#: model:ir.model.fields,field_description:account_print_journal_voucher.field_report_account_print_journal_voucher_account_move_report__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: account_print_journal_voucher
+#: model:ir.model.fields,field_description:account_print_journal_voucher.field_report_account_print_journal_voucher_account_move_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Journal"
+msgstr "日記帳:"
+
+#. module: account_print_journal_voucher
+#: model:ir.model,name:account_print_journal_voucher.model_account_move
+msgid "Journal Entries"
+msgstr "日記帳分錄"
+
+#. module: account_print_journal_voucher
+#: model:ir.actions.report,name:account_print_journal_voucher.report_account_move_menu
+msgid "Journal Voucher"
+msgstr "記帳憑證"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Label"
+msgstr "備註"
+
+#. module: account_print_journal_voucher
+#: model:ir.model.fields,field_description:account_print_journal_voucher.field_report_account_print_journal_voucher_account_move_report____last_update
+msgid "Last Modified on"
+msgstr "最後修改於"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Number"
+msgstr "號碼:"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Partner"
+msgstr "業務夥伴"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Posted By"
+msgstr "核准"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Reference"
+msgstr "編號:"
+
+#. module: account_print_journal_voucher
+#: model:ir.model.fields,field_description:account_print_journal_voucher.field_account_move__date
+msgid "Tanggal"
+msgstr ""
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Total"
+msgstr "總計"
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.report_account_move_document
+msgid "Validated By"
+msgstr "覆核人"
+
+#. module: account_print_journal_voucher
+#: model:ir.model,name:account_print_journal_voucher.model_report_account_print_journal_voucher_account_move_report
+msgid "report.account_print_journal_voucher.account_move_report"
+msgstr ""
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.account_print_journal_voucher_select
+msgid "依前次列印時間分組"
+msgstr ""
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.account_print_journal_voucher_select
+msgid "傳票尚未列印/有變更"
+msgstr ""
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.account_print_journal_voucher_select
+msgid "傳票已列印"
+msgstr ""
+
+#. module: account_print_journal_voucher
+#: model:ir.model.fields,field_description:account_print_journal_voucher.field_account_move__print_datetime
+msgid "列印時間"
+msgstr ""
+
+#. module: account_print_journal_voucher
+#: model:ir.model.fields,field_description:account_print_journal_voucher.field_account_move__print_already
+msgid "列印狀態"
+msgstr ""
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.account_print_journal_voucher_select
+msgid "列印狀況"
+msgstr ""
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.account_print_journal_voucher_select
+msgid "前次列印時間"
+msgstr ""
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.account_print_journal_voucher_select
+msgid "已列印"
+msgstr ""
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.account_print_journal_voucher_select
+msgid "待列印"
+msgstr ""
+
+#. module: account_print_journal_voucher
+#: model_terms:ir.ui.view,arch_db:account_print_journal_voucher.account_print_journal_voucher_select
+msgid "最後變更時間"
+msgstr ""
