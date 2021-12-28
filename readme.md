@@ -1,0 +1,9 @@
+# 模組說明
+## 專案模組
++ 尚鑽課程
+    - marketplace_elearning
+    - odoo_marketplace
+## 元植模組
+## 購買模組
+## OCA模組
+## 其他免費
