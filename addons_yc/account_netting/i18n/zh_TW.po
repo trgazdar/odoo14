@@ -1,0 +1,159 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_netting
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Language: zh_TW\n"
+
+#. module: account_netting
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
+#, python-format
+msgid "AR/AP netting"
+msgstr "AR/AP淨額沖銷"
+
+#. module: account_netting
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
+#, python-format
+msgid "All entries must have a receivable or payable account"
+msgstr "所有所選項目必須包含應收款或應付類型帳款帳戶"
+
+#. module: account_netting
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
+#, python-format
+msgid "All entries mustn't been reconciled"
+msgstr "所有所選待沖銷項目不得為以調節狀態"
+
+#. module: account_netting
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
+#, python-format
+msgid ""
+"All entries should have a partner and the partner must be the same for all."
+msgstr "所有所選待沖銷項目資料應該具有合作夥伴, 並且應屬同一個合作夥伴。"
+
+#. module: account_netting
+#: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__balance
+msgid "Balance"
+msgstr "餘額"
+
+#. module: account_netting
+#: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__balance_type
+msgid "Balance Type"
+msgstr "餘額類型"
+
+#. module: account_netting
+#: model_terms:ir.ui.view,arch_db:account_netting.view_account_move_make_netting_form
+msgid "Cancel"
+msgstr "取消查詢"
+
+#. module: account_netting
+#: model:ir.actions.act_window,name:account_netting.act_account_move_make_netting
+#: model_terms:ir.ui.view,arch_db:account_netting.view_account_move_make_netting_form
+msgid "Compensate"
+msgstr "應收付對沖"
+
+#. module: account_netting
+#: model_terms:ir.ui.view,arch_db:account_netting.view_account_move_make_netting_form
+msgid "Compensate entries"
+msgstr "應收付對沖分錄"
+
+#. module: account_netting
+#: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__create_uid
+msgid "Created by"
+msgstr "建立者"
+
+#. module: account_netting
+#: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: account_netting
+#: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: account_netting
+#: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_netting
+#: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__journal_id
+msgid "Journal"
+msgstr "日記帳:"
+
+#. module: account_netting
+#: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting____last_update
+msgid "Last Modified on"
+msgstr "最後修改:"
+
+#. module: account_netting
+#: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__write_uid
+msgid "Last Updated by"
+msgstr "最後更新："
+
+#. module: account_netting
+#: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__write_date
+msgid "Last Updated on"
+msgstr "最後更新於"
+
+#. module: account_netting
+#: model:ir.model.fields,field_description:account_netting.field_account_move_make_netting__move_line_ids
+msgid "Move Line"
+msgstr "移動明細"
+
+#. module: account_netting
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
+#, python-format
+msgid ""
+"The 'Compensate' function is intended to balance operations on different "
+"accounts for the same partner.\n"
+"In this case all selected entries belong to the same account.\n"
+" Please use the 'Reconcile' function."
+msgstr ""
+"\"應收付對沖\" 功能旨在將同一合作夥伴在不同會計科目(如AP/AR)進行沖銷的作"
+"業。\n"
+"當前所有選定的條目都屬於同一會計科目。\n"
+" 請使用 \"調節\" 功能作業。"
+
+#. module: account_netting
+#: model_terms:ir.ui.view,arch_db:account_netting.view_account_move_make_netting_form
+msgid ""
+"This operation will generate account entries that are counterpart of the "
+"receivable/payable accounts selected, and reconcile each other, letting this "
+"balance in the partner."
+msgstr ""
+"此操作將生成與所選應收款/應付帳款帳戶對應的科目項目, 並相互調節, 該作業後此合"
+"作夥伴之應收付淨額為:"
+
+#. module: account_netting
+#: model:ir.model.fields.selection,name:account_netting.selection__account_move_make_netting__balance_type__pay
+msgid "To pay"
+msgstr ""
+
+#. module: account_netting
+#: model:ir.model.fields.selection,name:account_netting.selection__account_move_make_netting__balance_type__receive
+msgid "To receive"
+msgstr ""
+
+#. module: account_netting
+#: model:ir.model,name:account_netting.model_account_move_make_netting
+msgid "Wizard to generate account moves for netting"
+msgstr "應收付對沖功能"
+
+#. module: account_netting
+#: code:addons/account_netting/wizards/account_move_make_netting.py:0
+#, python-format
+msgid "You should compensate at least 2 journal entries."
+msgstr "您應該選擇至少兩個日記帳項目。"

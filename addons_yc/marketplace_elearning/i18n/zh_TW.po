@@ -1,0 +1,949 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* marketplace_elearning
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-27 06:36+0000\n"
+"PO-Revision-Date: 2021-08-27 14:40+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_TW\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_slide_view_kanban
+msgid ""
+"<i class=\"fa fa-clock-o mr-2\" aria-label=\"Duration\" role=\"img\" title=\"Duration"
+"\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_kanban
+msgid "<i class=\"fa fa-clock-o mr-2\" title=\"Rating\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_slide_view_kanban
+msgid "<i class=\"fa fa-eye mr-2\" aria-label=\"Views\" role=\"img\" title=\"Views\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_slide_view_kanban
+msgid ""
+"<i class=\"fa fa-file-code-o mr-2\" aria-label=\"Webpage\" role=\"img\" title="
+"\"Webpage\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_slide_view_kanban
+msgid ""
+"<i class=\"fa fa-file-image-o mr-2\" aria-label=\"Infographic\" role=\"img\" title="
+"\"Infographic\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_slide_view_kanban
+msgid ""
+"<i class=\"fa fa-file-pdf-o mr-2\" aria-label=\"Document\" role=\"img\" title="
+"\"Document\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_slide_view_kanban
+msgid ""
+"<i class=\"fa fa-file-video-o mr-2\" aria-label=\"Video\" role=\"img\" title=\"Video"
+"\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_slide_view_kanban
+msgid "<i class=\"fa fa-flag mr-2\" aria-label=\"Quiz\" role=\"img\" title=\"Quiz\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_kanban
+msgid "<i class=\"fa fa-folder mr-2\" title=\"Rating\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_slide_view_kanban
+msgid ""
+"<i class=\"fa fa-question mr-2\" aria-label=\"Number of Questions\" role=\"img\" "
+"title=\"Number of Questions\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_kanban
+msgid "<i class=\"fa fa-star text-black-25\" title=\"Rating\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_kanban
+msgid "<i class=\"fa fa-star\" title=\"Rating\" role=\"img\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_kanban
+msgid "<i class=\"fa fa-star-half-o\" title=\"Rating\" role=\"img\"/>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "<span class=\"ml-2\">Hours</span>"
+msgstr "<span class=\"o_label\">Done</span>"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_form
+#, fuzzy
+msgid "<span class=\"o_stat_text\">Resource</span>"
+msgstr "<span class=\"o_stat_text\">作業</span>"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+#, fuzzy
+msgid "<span class=\"text-muted\">Attendees</span>"
+msgstr "<span class=\"o_stat_text\">作業</span>"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+#, fuzzy
+msgid "<span class=\"text-muted\">Contents</span>"
+msgstr "<span class=\"o_stat_text\">作業</span>"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+msgid "<span name=\"done_members_count_label\" class=\"text-muted\">Finished</span>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "<span name=\"members_done_count_label\" class=\"o_stat_text\">Finished</span>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "<span name=\"total_slides_label\" class=\"o_stat_text\">Contents</span>"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+#, fuzzy
+msgid "<span> hours</span>"
+msgstr "<span>已確認</span>"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "Access Rights"
+msgstr "訪問指示物"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "Add Content"
+msgstr "數字內容"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "Add Section"
+msgstr "加入購物車"
+
+#. module: marketplace_elearning
+#: model_terms:ir.actions.act_window,help:marketplace_elearning.mp_slide_slide_action
+#, fuzzy
+msgid "Add a new lesson"
+msgstr "新"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "Allow Rating"
+msgstr "点评"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "Approve"
+msgstr "批准"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields.selection,name:marketplace_elearning.selection__slide_channel__state__approved
+msgid "Approved"
+msgstr "批准"
+
+#. module: marketplace_elearning
+#: model:ir.actions.act_window,name:marketplace_elearning.mp_slide_channel_approved_action
+#: model:ir.ui.menu,name:marketplace_elearning.wk_mp_slides_approved_courses
+#, fuzzy
+msgid "Approved Courses"
+msgstr "核准人"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.view_slide_slide_search
+msgid "Archived"
+msgstr "归档"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "Attachment"
+msgstr "附件"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "Attendees"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.view_slide_slide_search
+#, fuzzy
+msgid "Category"
+msgstr "类别"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "Channels"
+msgstr "關注者(頻道)"
+
+#. module: marketplace_elearning
+#: model_terms:ir.actions.act_window,help:marketplace_elearning.mp_slide_channel_approved_action
+#: model_terms:ir.actions.act_window,help:marketplace_elearning.mp_slide_channel_non_approved_action
+#, fuzzy
+msgid "Click to add a course in your course list."
+msgstr "点击在产品列表中添加产品"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.product_rejection_wizard
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.product_unpublish_wizard
+msgid "Close"
+msgstr "关闭"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+#, fuzzy
+msgid "Comments"
+msgstr "注释"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "Communication"
+msgstr "<b>交易單號： </b>"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,help:marketplace_elearning.field_slide_channel__enroll
+msgid "Condition to enroll: on payment (sale bridge)."
+msgstr ""
+
+#. module: marketplace_elearning
+#: model:ir.ui.menu,name:marketplace_elearning.mp_elearning_Configuration_menu
+msgid "Configuration"
+msgstr "配置"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "Content"
+msgstr "數字內容"
+
+#. module: marketplace_elearning
+#: model:ir.actions.act_window,name:marketplace_elearning.mp_action_slide_tag
+#: model:ir.ui.menu,name:marketplace_elearning.wk_mp_menu_config_content_tags
+#, fuzzy
+msgid "Content Tags"
+msgstr "标签..."
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+#, fuzzy
+msgid "Content Title"
+msgstr "數字內容"
+
+#. module: marketplace_elearning
+#: model:ir.actions.act_window,name:marketplace_elearning.mp_slide_slide_action
+#: model:ir.actions.act_window,name:marketplace_elearning.mp_slide_slide_action_report
+#: model:ir.ui.menu,name:marketplace_elearning.wk_mp_slides_menu_courses_content
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_tree
+#, fuzzy
+msgid "Contents"
+msgstr ""
+"「<b>知識產權</b>」披露將告知使用者您所創建的內容、徽標和其它視覺媒體都屬於您的財產並"
+"受版權法保護。"
+
+#. module: marketplace_elearning
+#: model:ir.model,name:marketplace_elearning.model_slide_channel
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search_slide_channel
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.view_slide_slide_search
+msgid "Course"
+msgstr "課程"
+
+#. module: marketplace_elearning
+#: model:ir.actions.act_window,name:marketplace_elearning.mp_rating_rating_action_slide_channel
+#, fuzzy
+msgid "Course Rating"
+msgstr "点评"
+
+#. module: marketplace_elearning
+#: model:ir.actions.act_window,name:marketplace_elearning.mp_rating_rating_action_slide_channel_report
+#, fuzzy
+msgid "Course Ratings"
+msgstr "评级"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_tag_view_form
+#, fuzzy
+msgid "Course Tag"
+msgstr "标语"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_tag_group_view_form
+#, fuzzy
+msgid "Course Tag Group"
+msgstr "标语"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_tag_group_view_search
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_tag_group_view_tree
+#, fuzzy
+msgid "Course Tag Groups"
+msgstr "商店的标签行..."
+
+#. module: marketplace_elearning
+#: model:ir.actions.act_window,name:marketplace_elearning.mp_slide_channel_tag_action
+#: model:ir.actions.act_window,name:marketplace_elearning.mp_slide_channel_tag_group_action
+#: model:ir.ui.menu,name:marketplace_elearning.wk_mp_config_course_tags
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_tag_view_search
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_tag_view_tree
+#, fuzzy
+msgid "Course Tags"
+msgstr "标签..."
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "Course Title"
+msgstr "称谓"
+
+#. module: marketplace_elearning
+#: model:ir.ui.menu,name:marketplace_elearning.mp_elearning_course_menu
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_elearning_seller_filter
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_tree
+msgid "Courses"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_reject_wizard__create_uid
+msgid "Created by"
+msgstr "創立者"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_reject_wizard__create_date
+msgid "Created on"
+msgstr "建立於"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search_slide_channel
+msgid "Creation Date"
+msgstr "創建日期"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search
+msgid "Customer"
+msgstr "客戶"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search
+msgid "Date"
+msgstr "日期"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+msgid "Delete"
+msgstr "删除"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "Description"
+msgstr "说明"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "Display"
+msgstr "显示卖家评论"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_product__display_name
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_reject_wizard__display_name
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_template__display_name
+#: model:ir.model.fields,field_description:marketplace_elearning.field_rating_rating__display_name
+#: model:ir.model.fields,field_description:marketplace_elearning.field_slide_channel__display_name
+#: model:ir.model.fields,field_description:marketplace_elearning.field_slide_slide__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+#, fuzzy
+msgid "Document"
+msgstr "提供的文檔"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+#, fuzzy
+msgid "Dropdown menu"
+msgstr "選單"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+msgid "Duration"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+msgid "Edit"
+msgstr "編輯"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_slide_channel__enroll
+msgid "Enroll Policy"
+msgstr "註冊策略"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "External Links"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "Finish Course"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "First attempt"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+#, fuzzy
+msgid "Fourth and more attempt"
+msgstr "加载更多评论..."
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_slide_view_graph
+msgid "Graph of Contents"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_elearning_seller_filter
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.view_slide_slide_search
+msgid "Group By"
+msgstr "分组"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search
+msgid "Highly dissatisfied"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_product__id
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_reject_wizard__id
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_template__id
+#: model:ir.model.fields,field_description:marketplace_elearning.field_rating_rating__id
+#: model:ir.model.fields,field_description:marketplace_elearning.field_slide_channel__id
+#: model:ir.model.fields,field_description:marketplace_elearning.field_slide_slide__id
+#, fuzzy
+msgid "ID"
+msgstr "ID"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+msgid "Invite"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "Karma Rules"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_product____last_update
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_reject_wizard____last_update
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_template____last_update
+#: model:ir.model.fields,field_description:marketplace_elearning.field_rating_rating____last_update
+#: model:ir.model.fields,field_description:marketplace_elearning.field_slide_channel____last_update
+#: model:ir.model.fields,field_description:marketplace_elearning.field_slide_slide____last_update
+msgid "Last Modified on"
+msgstr "最後修改於"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_reject_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最後更新者"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_reject_wizard__write_date
+msgid "Last Updated on"
+msgstr "最後更新於"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "Lesson"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+msgid "Lessons"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_rating_rating__seller_id
+#: model:ir.model.fields,field_description:marketplace_elearning.field_slide_channel__seller_id
+#: model:ir.model.fields,field_description:marketplace_elearning.field_slide_slide__seller_id
+msgid "Marketplace Seller"
+msgstr "卖方卖方"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_slide_channel__state
+msgid "Marketplace State"
+msgstr "市场状态"
+
+#. module: marketplace_elearning
+#: model_terms:ir.actions.act_window,help:marketplace_elearning.mp_slide_channel_approved_action
+#: model_terms:ir.actions.act_window,help:marketplace_elearning.mp_slide_channel_non_approved_action
+#, fuzzy
+msgid "Marketplace helps you to easily track all courses."
+msgstr "市场可以帮助您轻松跟踪所有产品。"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,help:marketplace_elearning.field_rating_rating__seller_id
+#: model:ir.model.fields,help:marketplace_elearning.field_slide_channel__seller_id
+#: model:ir.model.fields,help:marketplace_elearning.field_slide_slide__seller_id
+#, fuzzy
+msgid "Marketplace seller"
+msgstr "卖方卖方"
+
+#. module: marketplace_elearning
+#: code:addons/marketplace_elearning/models/slides.py:0
+#, fuzzy, python-format
+msgid "Marketplace seller id is not assign to this course."
+msgstr "卖家卖家ID不分配给此产品。"
+
+#. module: marketplace_elearning
+#: code:addons/marketplace_elearning/models/slides.py:0
+#, fuzzy, python-format
+msgid "Marketplace seller or Product of this course is not approved."
+msgstr "此产品的卖家卖家尚未获得批准。"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "Member"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_tag_group_view_tree
+#, fuzzy
+msgid "Menu Entry"
+msgstr "日記帳分錄"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_tag_group_view_form
+#, fuzzy
+msgid "Menu entry"
+msgstr "日記帳分錄"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_product_reject_wizard__text
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.product_rejection_wizard
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.product_unpublish_wizard
+msgid "Message"
+msgstr "消息"
+
+#. module: marketplace_elearning
+#: model:ir.model,name:marketplace_elearning.model_product_reject_wizard
+msgid "MpWizardMessage"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search
+#, fuzzy
+msgid "My Ratings"
+msgstr "评级"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields.selection,name:marketplace_elearning.selection__slide_channel__state__new
+msgid "New"
+msgstr "新"
+
+#. module: marketplace_elearning
+#: model:ir.actions.act_window,name:marketplace_elearning.mp_slide_channel_form_create_action
+#, fuzzy
+msgid "New Course"
+msgstr "新"
+
+#. module: marketplace_elearning
+#: model_terms:ir.actions.act_window,help:marketplace_elearning.action_view_rating
+#, fuzzy
+msgid "No rating yet"
+msgstr "点评"
+
+#. module: marketplace_elearning
+#: model:ir.actions.act_window,name:marketplace_elearning.mp_slide_channel_non_approved_action
+#, fuzzy
+msgid "Non approved Courses"
+msgstr "未经批准的产品"
+
+#. module: marketplace_elearning
+#: model:ir.ui.menu,name:marketplace_elearning.wk_mp_slides_non_approved_courses
+#, fuzzy
+msgid "Non-Approved Courses"
+msgstr "未经批准的产品"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search
+msgid "Not satisfied"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model:ir.model.fields.selection,name:marketplace_elearning.selection__slide_channel__enroll__payment
+msgid "On payment"
+msgstr "付款時"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "Options"
+msgstr "各种发票生成选项"
+
+#. module: marketplace_elearning
+#: model:ir.ui.menu,name:marketplace_elearning.mp_elearning_other_menu
+msgid "Others"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model:ir.model.fields.selection,name:marketplace_elearning.selection__slide_channel__state__pending
+msgid "Pending"
+msgstr "有待"
+
+#. module: marketplace_elearning
+#: model:ir.model,name:marketplace_elearning.model_product_product
+msgid "Product"
+msgstr "商品"
+
+#. module: marketplace_elearning
+#: model:ir.model,name:marketplace_elearning.model_product_template
+msgid "Product Template"
+msgstr "產品模板"
+
+#. module: marketplace_elearning
+#: code:addons/marketplace_elearning/models/slides.py:0
+#, fuzzy, python-format
+msgid "Product of this course is not published."
+msgstr "已发布"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+#, fuzzy
+msgid "Public"
+msgstr "產品公開類別"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_elearning_seller_filter
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.view_slide_slide_search
+msgid "Published"
+msgstr "已发布"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+#, fuzzy
+msgid "Published Date"
+msgstr "已发布"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+#, fuzzy
+msgid "Questions"
+msgstr "<small>不問任何問題</small>"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "Quiz"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "Quizzes"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "Rank Course"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search
+#, fuzzy
+msgid "Rated User"
+msgstr "使用者"
+
+#. module: marketplace_elearning
+#: model:ir.actions.act_window,name:marketplace_elearning.action_view_rating
+#: model:ir.model,name:marketplace_elearning.model_rating_rating
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_form
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_tree
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "Rating"
+msgstr "評分"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_graph_slide_channel
+#, fuzzy
+msgid "Rating Average"
+msgstr "平均评分"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search
+msgid "Ratings"
+msgstr "点评"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.product_rejection_wizard
+msgid "Reject"
+msgstr "拒绝"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields.selection,name:marketplace_elearning.selection__slide_channel__state__rejected
+msgid "Rejected"
+msgstr "拒绝"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "Request To Approve"
+msgstr "请求批准"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search
+msgid "Resource"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model:ir.ui.menu,name:marketplace_elearning.wk_mp_slides_menu_courses_reviews
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "Reviews"
+msgstr "评测"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+#, fuzzy
+msgid "Rewards"
+msgstr ""
+"以兩種優惠方案增加您的銷售：促銷和優惠券代碼。具體條件可以設定（產品、客戶、最低採購"
+"金額、期限）。獎勵可以是折扣（%或金額）或免費的產品。"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_search
+msgid "Satisfied"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.view_slide_slide_search
+#, fuzzy
+msgid "Search Contents"
+msgstr "搜索"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_elearning_seller_filter
+#, fuzzy
+msgid "Search Courses"
+msgstr "搜索"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "Second attempt"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_elearning_seller_filter_inherit
+msgid "Seller"
+msgstr "卖家"
+
+#. module: marketplace_elearning
+#: model:ir.model,name:marketplace_elearning.model_slide_slide
+msgid "Slides"
+msgstr "幻燈片"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_elearning_seller_filter
+msgid "State"
+msgstr "狀態"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "Statistics"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_form
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_rating_rating_view_tree
+#, fuzzy
+msgid "Submitted on"
+msgstr "您的審查已成功提交。謝謝！"
+
+#. module: marketplace_elearning
+#: model:ir.model.fields,field_description:marketplace_elearning.field_slide_slide__slide_partner_ids
+msgid "Subscribers information"
+msgstr "訂閱者資訊"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_tag_form
+#, fuzzy
+msgid "Tag"
+msgstr "商店的标签行..."
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_tag_tree
+#, fuzzy
+msgid "Tags"
+msgstr "标签..."
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "Tags..."
+msgstr "标签..."
+
+#. module: marketplace_elearning
+#: model_terms:ir.actions.act_window,help:marketplace_elearning.mp_rating_rating_action_slide_channel
+#: model_terms:ir.actions.act_window,help:marketplace_elearning.mp_rating_rating_action_slide_channel_report
+#, fuzzy
+msgid "There are no ratings for these courses at the moment"
+msgstr "评级"
+
+#. module: marketplace_elearning
+#: model_terms:ir.actions.act_window,help:marketplace_elearning.action_view_rating
+#, fuzzy
+msgid "There is no rating for this object at the moment."
+msgstr "平均评分"
+
+#. module: marketplace_elearning
+#: code:addons/marketplace_elearning/wizard/product_reject_wizard.py:0
+#, python-format
+msgid ""
+"These courses are linked with this product if you reject this product, the below "
+"courses will also get rejected."
+msgstr ""
+
+#. module: marketplace_elearning
+#: code:addons/marketplace_elearning/wizard/product_reject_wizard.py:0
+#, python-format
+msgid ""
+"These courses are linked with this product if you unpublish this product, the below "
+"courses will also get unpublished."
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "Third attempt"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "Total"
+msgstr "总计"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.view_slide_slide_search
+msgid "Type"
+msgstr "类型"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.product_unpublish_wizard
+#, fuzzy
+msgid "Unpublish"
+msgstr "立即取消发布"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_elearning_seller_filter
+msgid "Unpublished"
+msgstr "未发布"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+#, fuzzy
+msgid "View course"
+msgstr "檢視"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "Views"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+msgid "Visits"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.view_slide_slide_search
+#, fuzzy
+msgid "Waiting for validation"
+msgstr "等待可用"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_form
+#, fuzzy
+msgid "Watch Time"
+msgstr "迟于计划时间的拣货"
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid "e.g. How to grow your business with Odoo?"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+msgid ""
+"e.g. In this video, how Odoo can help you to grow your business. At the end, we'll "
+"propose you a quiz to test your knowledge."
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_view_slide_slide_form
+#, fuzzy
+msgid "e.g. https://www.odoo.com"
+msgstr "例如：www.odoo.com"
+
+#. module: marketplace_elearning
+#: model:ir.ui.menu,name:marketplace_elearning.marketplace_elearning_menu
+msgid "eLearning"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+msgid "eLearning Overview"
+msgstr ""
+
+#. module: marketplace_elearning
+#: model_terms:ir.ui.view,arch_db:marketplace_elearning.mp_slide_channel_view_kanban
+msgid "reviews"
+msgstr "评论"

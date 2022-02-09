@@ -1,0 +1,150 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_report_pdf_options
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-19 10:41+0000\n"
+"PO-Revision-Date: 2021-04-19 18:43+0800\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.4.2\n"
+"Last-Translator: \n"
+"Language: zh_TW\n"
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/js/qwebactionmanager.js:0
+#, python-format
+msgid ""
+"A popup window with your report was blocked. You may need to change your "
+"browser settings to allow popup windows for this page."
+msgstr ""
+"帶有報告的彈出視窗被阻止。您可能需要更改瀏覽器設定以允許此頁面的彈出視窗。"
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/js/qwebactionmanager.js:0
+#, python-format
+msgid "Close"
+msgstr "關閉"
+
+#. module: om_report_pdf_options
+#: model:ir.model.fields,field_description:om_report_pdf_options.field_ir_actions_report__default_print_option
+msgid "Default printing option"
+msgstr "默認列印選項"
+
+#. module: om_report_pdf_options
+#: model:ir.model.fields,field_description:om_report_pdf_options.field_ir_actions_report__display_name
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/xml/report_pdf_options.xml:0
+#: model:ir.model.fields.selection,name:om_report_pdf_options.selection__ir_actions_report__default_print_option__download
+#, python-format
+msgid "Download"
+msgstr "下載"
+
+#. module: om_report_pdf_options
+#: model:ir.model.fields,field_description:om_report_pdf_options.field_ir_actions_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: om_report_pdf_options
+#: model:ir.model.fields,field_description:om_report_pdf_options.field_ir_actions_report____last_update
+msgid "Last Modified on"
+msgstr "最後修改於"
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/xml/report_pdf_options.xml:0
+#: model:ir.model.fields.selection,name:om_report_pdf_options.selection__ir_actions_report__default_print_option__open
+#, python-format
+msgid "Open"
+msgstr "開啟"
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/xml/report_pdf_options.xml:0
+#: model:ir.model.fields.selection,name:om_report_pdf_options.selection__ir_actions_report__default_print_option__print
+#, python-format
+msgid "Print"
+msgstr "列印"
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/js/qwebactionmanager.js:0
+#, python-format
+msgid "Report"
+msgstr "報表"
+
+#. module: om_report_pdf_options
+#: model:ir.model,name:om_report_pdf_options.model_ir_actions_report
+msgid "Report Action"
+msgstr "報告動作"
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/js/qwebactionmanager.js:0
+#, python-format
+msgid ""
+"Unable to find Wkhtmltopdf on this \n"
+"system. The report will be shown in html.<br><br><a href=\"http://"
+"wkhtmltopdf.org/\" target=\"_blank\">\n"
+"wkhtmltopdf.org</a>"
+msgstr ""
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/js/qwebactionmanager.js:0
+#, python-format
+msgid "Warning"
+msgstr "警告"
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/js/qwebactionmanager.js:0
+#, python-format
+msgid "What do you want to do?"
+msgstr "你想做什麼?"
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/js/qwebactionmanager.js:0
+#, python-format
+msgid ""
+"You need to start OpenERP with at least two \n"
+"workers to print a pdf version of the reports."
+msgstr ""
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/js/qwebactionmanager.js:0
+#, python-format
+msgid ""
+"You should upgrade your version of\n"
+"Wkhtmltopdf to at least 0.12.0 in order to get a correct display of headers "
+"and footers as well as\n"
+"support for table-breaking between pages.<br><br><a href=\"http://"
+"wkhtmltopdf.org/\" \n"
+"target=\"_blank\">wkhtmltopdf.org</a>"
+msgstr ""
+
+#. module: om_report_pdf_options
+#. openerp-web
+#: code:addons/om_report_pdf_options/static/src/js/qwebactionmanager.js:0
+#, python-format
+msgid ""
+"Your installation of Wkhtmltopdf seems to be broken. The report will be "
+"shown in html.<br><br><a href=\"http://wkhtmltopdf.org/\" target=\"_blank"
+"\">wkhtmltopdf.org</a>"
+msgstr ""
+"Wkhtmltopdf的安裝似乎被破壞了。 報告將以html顯示.<br><br><a href=\"http://"
+"wkhtmltopdf.org/\" target=\"_blank\">wkhtmltopdf.org</a>"
