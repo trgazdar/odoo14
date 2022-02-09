@@ -1,5 +1,6 @@
 __pycache__/﻿
 *.pyc
+/addons_yc
 /.idea
 /odoo-14.0
 /enterprise-14.0
